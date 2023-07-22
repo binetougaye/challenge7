@@ -216,7 +216,7 @@ div p{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        padding: 50px;
+       
     }
     .buttons{
         display: flex;
@@ -236,10 +236,10 @@ div p{
         align-items: center;
         text-align: center;
         gap: 50px;
-        padding: 50px;
+      
     }
     .card{
-        width: 50%;
+        max-width: 300px;
         margin: 0px auto;
     }
     .contact{
@@ -305,9 +305,8 @@ div p{
     }
     .card{
         background-color: #fff;
-        width: 50%;
+        max-width: 300px;
         position: relative;
-        height: 370px;
         padding: 20px;
         color: rgb(25, 25, 78);
         border-radius: 10px;
